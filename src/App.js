@@ -1,7 +1,11 @@
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+
 function App() {
   return (
     <div className="App">
-      <h1>NBA Fantasy</h1>
+      <Header />
+      <Footer />
     </div>
   );
 }
