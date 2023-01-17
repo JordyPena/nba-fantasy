@@ -1,7 +1,7 @@
 import React from "react";
 
-const Button = () => {
-  return <button>Add To Roster</button>;
+const Button = ({ buttonTxt }) => {
+  return <button>{buttonTxt}</button>;
 };
 
 export default Button;

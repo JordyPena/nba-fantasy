@@ -12,7 +12,7 @@ const Card = () => {
         <p>Position</p>
         <p>Stats</p>
         <div className="card-button-container">
-          <Button />
+          <Button buttonTxt="Add To Roster" />
         </div>
       </div>
     </div>
